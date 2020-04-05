@@ -1,0 +1,75 @@
+@font-face
+{
+    font-family:'genjyu';
+    src:url('/font/genjyuugothic-20150607/GenJyuuGothic-P-Normal.ttf');
+}
+
+body{
+    background-color: #FFBE00;
+}
+
+#input
+{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#title{
+    margin-top: 10%;
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 30%;
+    
+}
+
+input{
+    padding-left:10px;
+}
+
+#earth
+{
+    margin-top: 30px;
+    width: 100%;
+    height: 250px;
+    bottom: 0;
+    background-size: cover;
+    position: absolute;
+}
+
+#inputName{
+    margin-top: 50px;
+    background-color: #FFFCD2;
+    width: 250px;
+    height:30px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none; 
+    box-shadow: 0vw 0vw 5px #442422;
+    font-family: 'genjyu';
+}
+
+::-webkit-input-placeholder{
+     color:#A3A3A2;
+}
+
+#subName{
+    
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    background-color: #7A3905;
+    border-radius: 5px;
+    font-family: 'genjyu';
+    color: white;
+    box-shadow: 0vw 0vw 5px #442422;
+    border: none;
+}
+
+#outerSubName
+{
+    padding-top: 50px;
+    text-align: center;
+}

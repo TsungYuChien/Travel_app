@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'genjyu';
+    src: url('/font/genjyuugothic-20150607/GenJyuuGothic-P-Normal.ttf');
+}
+
+@font-face {
+    font-family: 'genjyuH';
+    src: url('/font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+}
+
+
+
+body {
+    background-color: #FFBE00;
+}
+a{
+    text-decoration: none;
+}
+
+#Top {
+    width: 100vw;
+    height: 11.2vh;
+    background-color: #7A3905;
+    position: fixed;
+}
+.back {
+    margin-top: 4.5vh;
+    margin-left: 5vw;
+    position: absolute;
+    height: 4vh;
+}
+#title{
+    padding-top: 5vh;
+    text-align: center;
+    
+    font-family: "genjyu";
+    font-size: 2.8vh;
+    color: white;
+}
+
+#botDiv {
+    position: absolute;
+}
+
+
+.group_pic{
+    margin-top: 20vh;
+    margin-left: 10vw;
+}
+
+.group_pic img{
+    height: 25vh;
+    width: 80vw;
+    border-radius: 5vw;
+}
+/*-------------------- form --------------------*/
+input {
+    padding-left: 4vw;
+    border: none;
+    background-color: transparent;
+    font-size: 2.5vh;
+    color: #7A3905;
+    
+}
+input:focus{
+    outline: none;
+}
+
+.group_info{
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.group_name{
+    margin-bottom: 2vh;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 0.2vh solid #7A3905;
+    
+    font-size: 2.5vh;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+
+.group_date{
+    margin-bottom: 2vh;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 0.2vh solid #7A3905;
+    
+    font-size: 2.5vh;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+.group_days{
+    margin-bottom: 2vh;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 0.2vh solid #7A3905;
+    
+    font-size: 2.5vh;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+.group_alarmclock{
+    margin-bottom: 2vh;
+    height: 6vh;
+    line-height: 6vh;
+    border-bottom: 0.2vh solid #7A3905;
+    
+    font-size: 2.5vh;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+.nextPage{
+    width: 35vw;
+    height: 10vh;
+    margin: 5vh auto auto auto;
+    border-radius: 5vw;
+    background-color: #7A3905;
+    text-align: center;
+    font-family: "genjyu";
+    color: white;
+   
+}
+
+.image-upload > input
+{
+    display: none;  
+}
+
+#inputN
+{
+     font-size: 4vh;
+    color: white;
+    z-index: 5;
+    width: 32.5vw;
+    height: 10vh;
+    margin-right: 10vw;
+ font-family: "genjyu";
+}

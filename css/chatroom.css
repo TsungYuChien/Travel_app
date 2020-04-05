@@ -1,0 +1,312 @@
+body {
+    background-color: #FFBE00;
+}
+
+@font-face {
+    font-family: 'genjyu';
+    src: url('/font/genjyuugothic-20150607/GenJyuuGothic-P-Normal.ttf');
+}
+
+@font-face {
+    font-family: 'genjyuH';
+    src: url('/font/genjyuugothic-20150607/GenJyuuGothic-P-Bold.ttf');
+}
+
+
+#chatroomTop {
+    z-index: 7;
+    width: 100%;
+    height: 70px;
+    background-color: #7A3905;
+    position: fixed;
+
+}
+
+.innerCircle {
+    float: left;
+    width: 7px;
+    height: 7px;
+    border-radius: 999em;
+    background-color: white;
+}
+
+#circle2 {
+    padding-left: 10px;
+}
+
+#circle3 {
+    padding-left: 20px;
+}
+
+#dotManu {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+    border: none;
+   
+    background-color: #7A3905;
+
+}
+
+#travelName {
+    font-family: 'genjyu';
+    padding-top: 5px;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+#outerPosition {
+
+    text-align: center;
+    background-color: wheat;
+}
+
+#message {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #7A3905;
+}
+
+#messageInput {
+    float: left;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-left: -20px;
+    padding-left: 15px;
+}
+
+#outerInput {
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 30px;
+
+}
+
+#JPG {
+    margin-top: 15px;
+    margin-left: 20px;
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+
+#MIC {
+    margin-top: 15px;
+    float: left;
+    width: 45px;
+}
+
+#sentOut {
+    margin-top: -11px;
+    float: left;
+    width: 40px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.back {
+    margin-top: 20px;
+    margin-left: 10px;
+    position: absolute;
+    height: 30px;
+}
+
+#Manu {
+     z-index: 0;
+    position: fixed;
+    margin-top: -700px;
+    height: 175px;
+    width: 100%;
+    background-color: #FFFCD2;
+    box-shadow: 0vw 0vw 20px #442422;
+    
+}
+
+#gotoarr
+{
+    margin-top: 95px;
+width:100%;
+    background-color: #7a3905;
+    height: 50px;
+    color: white;
+    text-align: center;
+    line-height: 50px; 
+}
+
+#threeTitle {
+
+    z-index: 1;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 45px;
+    height: 60px;
+    
+}
+
+#Ocount {
+    float: left;
+    text-align: center;
+    width: 50px;
+}
+
+#Odate {
+    margin-left: 75px;
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+
+#countH {
+    float: left;
+    color: #FFFCD2;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'genjyu';
+    width: 80px;
+    height: 20px;
+    background-color: #7A3905;
+    border-radius: 50px;
+}
+
+#date {
+    float: left;
+    color: #FFFCD2;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'genjyu';
+    width: 80px;
+    height: 20px;
+    background-color: #7A3905;
+    border-radius: 50px;
+}
+
+#code {
+
+    float: left;
+    color: #FFFCD2;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'genjyu';
+    width: 80px;
+    height: 20px;
+    background-color: #7A3905;
+    border-radius: 50px;
+}
+
+#Ocode {
+    margin-left: 75px;
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+
+#numberP {
+    float: left;
+    font-size: 15px;
+    font-family: 'genjyuH';
+    color: #7A3905;
+    margin-top: 10px;
+
+}
+
+#numberD {
+
+    float: left;
+    font-size: 15px;
+    font-family: 'genjyuH';
+    color: #7A3905;
+
+    text-align: center;
+}
+
+#outerd {
+    width: 60rem;
+    margin: 0 auto;
+}
+
+#textCount {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+
+#textDate {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+
+#textCode {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: 'genjyuH';
+    color: #7A3905;
+}
+
+#line{
+    margin-top: 1px;
+width: 100%;
+background-color: #7A3905;
+height: 1px;
+}
+
+.line2 {
+    margin-left: 20px;
+    float: left;
+    width: 2px;
+    height: 95px;
+    background-color: #7A3905;
+
+}
+
+#note {
+    margin-top: 20px;
+    float: left;
+    width: 60px;
+    margin-left: 25px;
+}
+
+#locate {
+     margin-top: 20px;
+    float: left;
+    width: 60px;
+    margin-left: 25px;
+}
+
+#gallery {
+        margin-top: 20px;
+    float: left;
+    width: 60px;
+    margin-left: 25px;
+}
+
+#exit {
+      margin-top: 20px;
+    float: left;
+    width: 60px;
+    margin-left: 23px;
+}
+
+#chatbox {
+    padding-top: 50px;
+    height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
